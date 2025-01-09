@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tag 13: Loops II</title>
+    <link rel="stylesheet" href="./style.css">
+    <script type="module" src="script.ts"></script>
+</head>
+<body>
+    <a href="../../">Zurück</a>
+    <h1>Tag 13: Loops II</h1>
+    <h2>Gib mir eine Zahl</h2>
+    <p>Ich werde alle Zahlen bis zu dieser Zahl addieren, wenn sie durch die ausgewählten Zahlen teilbar sind!</p>
+    <form>
+        <fieldset>
+            <label for="max-number">Maximale Zahl</label>
+            <input type="number" id="max-number">
+        </fieldset>
+        <fieldset>
+            <label for="first-number">
+                <select name="first-number" id="first-number">
+                    <option name="first-number" value="2">2</option>
+                    <option name="first-number" value="3">3</option>
+                    <option name="first-number" value="4">4</option>
+                    <option name="first-number" value="5">5</option>
+                    <option name="first-number" value="6">6</option>
+                    <option name="first-number" value="7">7</option>
+                    <option name="first-number" value="8">8</option>
+                    <option name="first-number" value="9">9</option>
+                </select>
+            </label>
+        </fieldset>
+        <fieldset>
+            <label for="second-number">
+                <select name="second-number" id="second-number">
+                    <option name="second-number" value="2">2</option>
+                    <option name="second-number" value="3">3</option>
+                    <option name="second-number" value="4">4</option>
+                    <option name="second-number" value="5">5</option>
+                    <option name="second-number" value="6">6</option>
+                    <option name="second-number" value="7">7</option>
+                    <option name="second-number" value="8">8</option>
+                    <option name="second-number" value="9">9</option>
+                </select>
+            </label>
+        </fieldset>
+        <input type="submit" value="Count Me" id="submit-btn">
+    </form>
+    <p id="result-field"></p>
+</body>
+</html>
+
+<style>
+    fieldset {border: none}
+</style>
