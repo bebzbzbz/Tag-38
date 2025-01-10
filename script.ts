@@ -105,21 +105,21 @@ if(submitBtn && maxNumberField && selectNumberFields && resultField) {
 // ======= Lvl 3_5 =======
 console.log("Lvl 3_5");
 
-function factorial(num : number) {
+function factorial(num : number) : number{
     let result = 1;
 
-    for(let i = 1; i <= num; i++) {
+    for(let i = num; i >= 1; i--) {
         result *= i;
     }
-    console.log(result);
+    return result;
 }
-factorial(0);
-factorial(1);
-factorial(2);
-factorial(3);
-factorial(4);
-factorial(5);
-factorial(6);
+console.log(factorial(0));
+console.log(factorial(1));
+console.log(factorial(2));
+console.log(factorial(3));
+console.log(factorial(4));
+console.log(factorial(5));
+console.log(factorial(6));
 
 // ======= Lvl 3_6 =======
 console.log("Lvl 3_6");
